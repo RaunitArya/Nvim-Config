@@ -130,7 +130,7 @@ return {
 						expandtab = true,
 						shiftwidth = 2,
 					},
-					kind = "replace",
+					kind = "split_left_most",
 					kinds = {
 						float = {
 							height = "70%",
