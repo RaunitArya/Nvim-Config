@@ -4,13 +4,27 @@
 		"neovim/nvim-lspconfig",
 		opts = {
 			servers = {
-				pyright = {
+				ty = {
 					settings = {
-						python = {
-							analysis = {
-								autoSearchPaths = true,
-								useLibraryCodeForTypes = true,
-								diagnosticMode = "workspace",
+						ty = {
+							-- Strictness can be adjusted later
+							diagnostics = {
+								enable = true,
+							},
+						},
+					},
+				},
+
+				-- Ruff LSP (linting + formatting)
+				ruff = {
+					init_options = {
+						settings = {
+							-- Ruff is the only linter
+							lint = {
+								enable = true,
+							},
+							format = {
+								enable = true,
 							},
 						},
 					},
