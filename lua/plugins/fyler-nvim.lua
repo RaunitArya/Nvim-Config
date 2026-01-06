@@ -144,7 +144,7 @@ return {
 						split_below = { height = "70%" },
 						split_below_all = { height = "70%" },
 						split_left = { width = "70%" },
-						split_left_most = { width = "30%" },
+						split_left_most = { width = "20%" },
 						split_right = { width = "30%" },
 						split_right_most = { width = "30%" },
 					},
