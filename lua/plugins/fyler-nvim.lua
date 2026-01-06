@@ -97,8 +97,8 @@ return {
 
 				indentscope = {
 					enabled = true,
-					group = "FylerIndentMarkek",
-					marker = "│",
+					group = "FylerIndentMarker",
+					markers = { { "│", "FylerIndentMarker" } },
 				},
 
 				mappings = {
