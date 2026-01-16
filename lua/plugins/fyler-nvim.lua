@@ -134,7 +134,7 @@ return {
 					kinds = {
 						float = {
 							height = "70%",
-							width = "70%",
+							width = "30%",
 							top = "10%",
 							left = "15%",
 						},
