@@ -26,12 +26,12 @@ return {
 					NeoTreeNormal = { bg = "none" },
 					NeoTreeNormalNC = { bg = "none" },
 					Pmenu = { bg = "none" }, -- completion menu
-					PmenuSel = { bg = "none" },
+					-- PmenuSel = { bg = "none" },
 					PmenuSbar = { bg = "none" },
-					PmenuThumb = { bg = "none" },
+					-- 		PmenuThumb = { bg = "none" },
 				},
 			})
-
+			--
 			require("onedark").load()
 		end,
 	},
