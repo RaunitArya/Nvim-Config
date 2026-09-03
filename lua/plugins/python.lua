@@ -5,6 +5,7 @@
 		opts = {
 			servers = {
 				ty = {
+					enabled = true,
 					settings = {
 						ty = {
 							-- Strictness can be adjusted later
