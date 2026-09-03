@@ -6,12 +6,7 @@ return {
 			mode = "term",
 
 			filetype = {
-				python = "python -u",
-				-- JavaScript
-				javascript = "node",
-
-				-- TypeScript
-				typescript = "npx tsx",
+				python = "python3 -u",
 
 				-- Lua
 				lua = "lua",
@@ -47,8 +42,8 @@ return {
 	keys = {
 		{
 			"<leader>rr",
-			"<cmd>RunCode<CR>",
-			desc = "Run code",
+			"<cmd>RunFile<CR>",
+			desc = "Run current file",
 		},
 		{
 			"<leader>rc",
